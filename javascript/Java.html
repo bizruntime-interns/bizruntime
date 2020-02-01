@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>first</title>
+<script type="text/javascript">
+function firstFunction(){
+document.getElementById('b1').innerHTML="Welcome"
+}
+function printScreen() {
+window.print();
+}
+function guess() {
+const num = Math.ceil(Math.random() * 10);
+document.write(num);
+const gnum = prompt('Guess the number between 1 and 10 inclusive');
+  if (gnum == num)
+   {
+    document.write('Matched');
+    }
+  else
+   {
+    document.write("Not matched, the number was "+ gnum);
+    }
+</script>
+
+</head>
+<body>
+<script type="text/javascript">
+document.getElementById('abc').innerHTML="Internship 2020"
+</script>
+<center><h4>Bizruntime</h4>
+<p id="abc"></p>
+<script type="text/javascript">
+
+</script>
+<button type="button"onclick="printScreen()">print</button>
+<button type="button" id="b1" onclick="firstFunction()">click here again</button>
+<br/>
+<br/>
+
+<button type="button" onclick="guess()">guess a num</button>
+</center>
+</body>
+</html>
