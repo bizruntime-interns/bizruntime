@@ -1,0 +1,21 @@
+using System;
+using System.Collections.Generic;
+	namespace Element
+{
+		public class program
+		{
+		public static void Main()
+		{
+		Dictionary<string, string> capitals=new Dictionary<string,string>();
+		capitals.Add("india","karnataka");
+		capitals.Add("Albani","Tirana");
+                capitals.Add("Algeri","Algiers");
+		capitals.Add("Andorra","Andorra la Vella");
+		capitals.Add("Angola","Luanda");
+		string captial=capitals["Albani"];
+		Console.WriteLine("the capital of the contry is "+captial);
+		}
+		}
+	}
+
+

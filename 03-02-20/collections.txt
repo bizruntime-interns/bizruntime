@@ -1,0 +1,18 @@
+using System;
+using System.Collections.Generic;
+namespace collections
+{
+	public class program
+	{
+		public static void Main(string[] args)
+		{
+		var colors=new List<string>();
+		colors.Add("red");
+		colors.Add("blue");
+		foreach(var color in colors)
+		{
+			Console.WriteLine(color +" color");
+		}
+	}
+	}
+}
